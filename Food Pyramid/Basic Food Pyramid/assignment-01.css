@@ -1,0 +1,77 @@
+.layer
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space
+{
+   height: 2vh;
+}
+
+#triangle {
+	background-color: rgba(0, 0, 0, 0);
+	/* clip-path: polygon(50% 0, 100% 100%, 0 100%);
+	width: 50vw;
+	height: 80vh; */
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    width: 80vw;
+	height: 100vh;
+    position: absolute;
+    left:10vw;
+}
+
+#circle
+{
+    background: grey;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.counter
+{
+    border-radius: 50%;
+    font-size: 2vw;
+}
+
+.minus
+{
+    transition-duration: 0.6s;
+    opacity: 0;
+    border-radius: 100%;
+    border: 0px;
+}
+
+.plus
+{
+    transition-duration: 0.6s;
+    opacity: 0;
+    border-radius: 100%;
+    border: 0px;
+}
+
+.layer:hover .minus
+{
+    opacity: 1;
+}
+
+.layer:hover .plus
+{
+    opacity: 1;
+}
+
+.text
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab
+{
+    margin-left : 2vw;
+}

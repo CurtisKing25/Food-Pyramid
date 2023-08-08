@@ -1,0 +1,57 @@
+<html>
+<head>
+    <link rel="stylesheet" href="assignment-01.css">
+    <h1 style="text-align:center">Food Pyramid</h1>
+</head>
+
+<body>
+    <br>
+    <div id="triangle">
+        <div id="sweets" class="layer" style="background-color:rgb(234,86,69)">
+            <button class = "minus">-</button>
+            <div id="circle" class = "counter">0</p></div>
+            <button class = "plus">+</button>
+        </div>
+        <div class="space"></div>
+        <div id="fats" class="layer" style="background-color:rgb(255,193,0)">
+            <button class = "minus">-</button>
+            <div id="circle" class = "counter">0</p></div>
+            <button class = "plus">+</button>
+        </div>
+        <div class="space"></div>
+        <div id="meat" class="layer" style="background-color:rgb(245, 245, 64)">
+            <button class = "minus">-</button>
+            <div id="circle" class = "counter">0</p></div>
+            <button class = "plus">+</button>
+        </div>
+        <div id="dairy" class="layer" style="background-color:rgb(102,204,255)">
+            <button class = "minus">-</button>
+            <div id="circle" class = "counter">0</p></div>
+            <button class = "plus">+</button>
+        </div>
+        <div id="carbs" class="layer" style="background-color:rgb(162, 122, 102)">
+            <button class = "minus">-</button>
+            <div id="circle" class = "counter">0</p></div>
+            <button class = "plus">+</button>
+        </div>
+        <div id="fruitNveg" class="layer" style="background-color:rgb(143,242,67)">
+            <button class = "minus">-</button>
+            <div id="circle" class = "counter">0</p></div>
+            <button class = "plus">+</button>
+        </div>
+        <br>
+        <div class="text">
+            <label for="start" style= font-size:50 >Today's Date:</label>
+            <div class ="tab">
+                <input style = "font-size: 2rem" type="date" id="start">
+            </div>
+        </div>
+    </div>
+    <div>
+        <button id ="button" onclick="under5()">Under 5</button>
+    </div>
+
+</body>
+<script src="assignment-01.js"></script>
+
+</html>
